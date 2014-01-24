@@ -22,7 +22,7 @@
 @property (strong, nonatomic) IBOutlet DECopyLabel *CFUUIDLabel;
 @property (strong, nonatomic) IBOutlet DECopyLabel *BundleIDLabel;
 @property (strong, nonatomic) IBOutlet DECopyLabel *NSUUIDLabel;
-
+@property (strong, nonatomic) IBOutlet DECopyLabel *MACLabel;
 
 - (IBAction)refreshIDs:(id)sender;
 - (IBAction)labelTapped:(id)sender;
